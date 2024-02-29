@@ -121,10 +121,6 @@
     margin-top: 0.2rem;
   }
 
-  .name {
-    font-size: 1.8rem;
-  }
-
   ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
   }

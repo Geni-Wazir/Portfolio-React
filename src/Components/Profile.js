@@ -12,7 +12,7 @@ export default function Profile(props) {
 			</div>
             <figcaption className="relative bottom-8 items-center justify-between  left-2/4 flex flex-col w-[calc(100%-4rem)] -translate-x-2/4 rounded-xl border border-white bg-white/75 py-4 px-8 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
               <div>
-                <Typography variant="h2" className="items-center justify-between name" color="blue-gray">
+                <Typography variant="h2" className="items-center justify-between text-[1.8rem]" color="blue-gray">
                   Saurabh Kumar
                 </Typography>
               </div>
