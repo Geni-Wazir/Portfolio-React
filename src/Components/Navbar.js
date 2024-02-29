@@ -37,15 +37,15 @@ export default function Navbar(props) {
   	}, [filled, isRunning]);
 
   	const resumeDownload = () => {
-		setIsRunning(true)
-		const pdfUrl = resume;
-		const link = document.createElement("a");
-		link.href = pdfUrl;
-		link.download = "Resume-Saurabh-Kumar.pdf"; // specify the filename
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
-	};
+      setIsRunning(true);
+      const pdfUrl = resume;
+      const link = document.createElement("a");
+      link.href = pdfUrl;
+      link.download = "Resume-Saurabh-Kumar.pdf";  // Set the desired filename
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
 
   return (
     <Disclosure as="nav" className="bg-gray-800 bg-opacity-0 fixed w-full z-20 top-0 start-0 pb-3">
