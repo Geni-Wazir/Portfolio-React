@@ -148,7 +148,7 @@ export default function Projects(props) {
 					<div className='w-full break-inside-avoid bg-gray-200 mb-3 pr-2 pt-4 border border-gray-500 rounded-3xl'>
 						<h2 className='font-bold text-xl mb-3 px-4'>
 							<a href={ctf} target='_blank' rel='noreferrer noopener'>
-								CTF for SiNUsoidV5
+								CTF for siNUsoidV5
 							</a>
 						</h2>
 						<span className="mt-2 leading-6 flex">
@@ -156,7 +156,7 @@ export default function Projects(props) {
 								<path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>									
 							</svg>
 							<p>
-							Hosted and formulated CTF questions for NIIT University's tech fest "SiNUsoid v5". The inquiries span diverse categories such as
+							Hosted and formulated CTF questions for NIIT University's tech fest "siNUsoid v5". The inquiries span diverse categories such as
 							<b className='px-1'>Cryptography, Web Application, System, Reverse Engineering, and OSINT.</b></p>
 						</span>
 						<div className='px-4 py-2'>
