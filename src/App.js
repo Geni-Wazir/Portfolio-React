@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './main.css';
+import './App.css';
 import Navbar from './Components/Navbar';
 import Education from './Routes/Education';
 import Experience from './Routes/Experience';
