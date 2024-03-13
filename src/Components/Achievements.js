@@ -8,7 +8,7 @@ import vitBhopalImage from './images/vit_bhopal.png';
 import workshop2Image from './images/workshop2.png';
 import vitImage from './images/vit.png';
 import ceh from './Certificates/ceh.pdf';
-import oci from './Certificates/oci.png';
+import oci from './Certificates/oci.pdf';
 
 export default function Achievements(props) {
   return (
